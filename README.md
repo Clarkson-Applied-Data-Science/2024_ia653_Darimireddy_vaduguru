@@ -81,8 +81,12 @@ Several models were selected based on their common usage in text classification 
 1. *Multinomial Naive Bayes (MNB):* Known for its effectiveness in dealing with text data due to its assumption of feature independence and its efficiency in training.
 2. *Logistic Regression:* Provides a robust baseline with its capability to output probabilities for each class, useful for threshold tuning in class predictions.
 3. *Dense Neural Network (DNN):* Utilizes layers of neurons with activation functions to capture non-linear relationships in the data.
-4. *Simple RNN and GRU:* These sequential models are designed to capture temporal dependencies in text data, potentially offering superior performance on sequence-based data like text.
-
+<img src="DNN_network_architecture.png" alt="NLP1">
+5. *Simple RNN and GRU:* These sequential models are designed to capture temporal dependencies in text data, potentially offering superior performance on sequence-based data like text.
+#Simple RNN
+<img src="Simple_RNN_Network_Architecture.png" alt="NLP1">
+##GRU
+<img src="GRU_Network_Architecture.png" alt="NLP1">
 Each model was chosen to explore different aspects of model behavior—simplicity vs. complexity, linear vs. non-linear decision boundaries, and memory utilization in sequence processing.
 
 #### Model Training and Hyperparameter Tuning
@@ -93,7 +97,10 @@ The models were evaluated using a variety of metrics to assess their performance
 - *Accuracy:* To measure the overall effectiveness of the models.
 - *Precision, Recall, and F1-Score:* To understand model performance concerning each class, important in imbalanced datasets.
 - *Confusion Matrix:* Provided insights into the types of errors made by the models (e.g., false positives and false negatives).
+<img src="Confusion_matrix.png" alt="NLP1">
 
+### Models Accuracies Single Bar
+<img src="Model_Accuracies.png" alt="NLP1">
 #### Overfitting/Underfitting Checks
 Regular checks for overfitting or underfitting were conducted by comparing training and validation performance. If a model showed high training accuracy but low validation accuracy, it was an indication of overfitting. Conversely, if both training and validation accuracies were low, it pointed to underfitting. Appropriate measures, such as adjusting the model's complexity or training duration, were taken based on these findings.
 
