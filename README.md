@@ -1,6 +1,6 @@
 # 2024_ia653_Darimireddy_vaduguru
 
-## Project Overview and Process Narrative
+## Spotify_Sentiment_Analysis
 
 ### Project Overview
 The primary objective of this project was to develop and compare different machine learning models for text classification based on sentiment analysis. The dataset used comprises user reviews, with the task being to classify these reviews based on sentiment (positive, neutral, negative). To enhance the robustness of the model and address potential data imbalances, synthetic "neutral" reviews were generated and integrated with the existing data.
